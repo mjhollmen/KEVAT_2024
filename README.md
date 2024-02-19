@@ -1,1 +1,0 @@
-Verkkosivujenkehittämine kurssin harjoituksia
