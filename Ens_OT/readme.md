@@ -1,1 +1,1 @@
-Ensimmäinen harjoitus
+Ensimmäinen oppitunti
