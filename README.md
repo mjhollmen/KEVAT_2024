@@ -1,1 +1,0 @@
-Marikan verkkosivujenkehittämiskurssi
