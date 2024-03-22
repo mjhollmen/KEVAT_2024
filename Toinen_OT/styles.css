@@ -18,7 +18,7 @@ padding: 1em;}
     text-align: center;
 }
 section{
-    float: left;
+    float: right;
     width: 65%;
     color: blue;
     height: 230px;
@@ -26,17 +26,31 @@ section{
 }
 
 aside{
-    float: right;
+    float:left;
     width: 25%;
     color: blue;
     height: 430px;
     padding: 1em;
 }
 article{
-    float: left;
+    float: right;
     width: 65%;
     padding: 1em;
     color: blue;
     height: 230px;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.ul{
+    list-style-type: none;
+    text: bold;
+}
