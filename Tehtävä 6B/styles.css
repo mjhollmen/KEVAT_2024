@@ -6,6 +6,7 @@ body{
     color: white;
 }
 header,footer{
+    width: 90%;
     background-color: green;
     color: white;
     padding: 1em;
@@ -15,6 +16,7 @@ header,footer{
     clear: left;
 }
 nav{
+    width:93%;
     background-color: aquamarine;
     padding: 1em;}
 
@@ -73,8 +75,9 @@ ul{
 }
 
 .footer {
-   
+    width: 90%;
     left: 0;
+    right: 0;
     bottom: 0;
     width: 100%;
     background-color: green;
