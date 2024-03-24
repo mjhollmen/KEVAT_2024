@@ -1,3 +1,10 @@
+body{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: lightgreen;
+    color: white;
+}
 header,footer{
     background-color: green;
     color: white;
@@ -19,7 +26,8 @@ nav{
     text-align: center;
 }
 section{
-    float: right;
+    background-color: aqua;
+    float: left;
     width: 65%;
     color: blue;
     height: 230px;
@@ -29,7 +37,7 @@ section{
 aside{
     float: right;
     width: 25%;
-    color: blue;
+    color: black;
     height: 430px;
     padding: 1em;
 }
@@ -39,6 +47,29 @@ article{
     padding: 1em;
     color: blue;
     height: 230px;
+}
+h1{ text-align: center;
+    
+    font-size: 20px;
+    border-style: double;
+}
+
+p{ 
+   background-color: white;
+   font-size: 12px;
+   color: green;
+   border: 2px solid black;
+   border-radius: 5px; 
+   margin: 15px;
+   padding: 5px;
+}
+
+ol{
+    list-style-type: lower-alpha;
+}
+
+ul{
+    list-style-type: square;
 }
 
 .footer {
@@ -50,9 +81,11 @@ article{
     color: white;
     text-align: center;
 }
-
 .ul{
     
     list-style-type: none;
-    
+  
+}
+.aside{
+    float: left;
 }
