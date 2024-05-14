@@ -1,14 +1,14 @@
 body{
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background: lightgreen;
-    color: white;
+    background: rgb(252, 253, 252);
+    color: rgb(12, 12, 12);
 }
-header,footer{
-    width: 90%;
-    background-color: green;
-    color: white;
+header{
+    width: 100%;
+    background-color: rgb(114, 117, 114);
+    color: white ;
     padding: 1em;
     text-align: center;
     font-size: 30px;
@@ -16,8 +16,9 @@ header,footer{
     clear: left;
 }
 nav{
-    width:90%;
-    background-color: aquamarine;
+    width:100%;
+    background-color: rgb(171, 180, 177);
+    color: black;
     padding: 1em;}
 
 .wrapper{
@@ -31,11 +32,16 @@ section{
     background-color: aqua;
     float: left;
     width: 65%;
-    color: blue;
+    color: black;
     height: 230px;
     padding: 10px ;
 }
-
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; /* Säädä leveyttä tarpeen mukaan */
+}
 aside{
     float: right;
     width: 25%;
@@ -47,7 +53,7 @@ article{
     float: left;
     width: 65%;
     padding: 1em;
-    color: blue;
+    color: white;
     height: 230px;
 }
 h1{ text-align: center;
@@ -58,13 +64,25 @@ h1{ text-align: center;
 
 p{ 
    background-color: white;
-   font-size: 12px;
-   color: green;
+   font-size: 20px;
+   color: black;
    border: 2px solid black;
    border-radius: 5px; 
    margin: 15px;
    padding: 5px;
 }
+
+.carousel-inner .item img {
+    width: 200px; /* Set your desired width */
+    height: 200px; /* Set your desired height */
+}
+{ /*.carousel-inner .item img {
+    object-fit: cover; /* Resize to cover the container */
+   /* object-position: center;*/ /* Center the image */
+}
+
+
+
 
 ol{
     list-style-type: lower-alpha;
@@ -74,13 +92,14 @@ ul{
     list-style-type: square;
 }
 
-.footer {
-    width: 90%;
+footer {
+    position: fixed;
+    width: 100%;
     left: 0;
     right: 0;
     bottom: 0;
     width: 100%;
-    background-color: green;
+    background-color: rgb(114, 117, 114);
     color: white;
     text-align: center;
 }
