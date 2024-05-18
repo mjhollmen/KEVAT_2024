@@ -28,6 +28,9 @@ nav{
     flex: 1;
     text-align: center;
 }
+.figure{
+    margin-left:auto;
+}
 section{
     background-color: aqua;
     float: left;
@@ -76,14 +79,22 @@ p{
     width: 200px; /* Set your desired width */
     height: 200px; /* Set your desired height */
 }
-{ /*.carousel-inner .item img {
-    object-fit: cover; /* Resize to cover the container */
-   /* object-position: center;*/ /* Center the image */
-}
+ 
 
-
-
-
+#demo {
+    -moz-transform: translate(-50px, 0px);
+    -webkit-transform: translate(-50px, 0px);
+    -o-transform: translate(-50px, 0px);
+    -ms-transform: translate(-50px, 0px);
+    transform: translate(-50px, 0px);
+    }
+    #demo {
+     background-color: #1C6EA4;
+     width: 100px;
+     color: #FFF;
+     margin: 50px auto;
+     text-align: center;
+    }
 ol{
     list-style-type: lower-alpha;
 }
