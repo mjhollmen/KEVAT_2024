@@ -1,0 +1,16 @@
+body {
+    /* Aseta taustakuvaksi hevosenkenkäkuva */
+    background-image: url('images/horseshoe.png');
+    
+    /* Toista taustakuva molempiin suuntiin */
+    background-repeat: repeat;
+    
+    /* Aseta taustaväri, joka näkyy kuvien väleissä */
+    background-color: white;
+    
+    /* Muut tyylit kehon sisällölle */
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+}
